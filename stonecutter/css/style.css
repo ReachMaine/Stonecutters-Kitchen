@@ -38,6 +38,15 @@ i.fa-pull-right {
   padding-top: 0px !important;
   padding-bottom: 0px !important; }
 
+#header #header-wrap .logo .logo-text {
+  display: inline-block;
+  line-height: normal;
+  margin-bottom: 0px;
+  vertical-align: middle;
+  color: white; }
+  #header #header-wrap .logo .logo-text h2 {
+    color: white; }
+
 /*** slidebar in oshine slidebar is above main content *** */
 /*  header stuff - here */
 /*** styling of content */
@@ -56,3 +65,11 @@ i.fa-pull-right {
 
 /* *** keep this at the end *** */
 /* **** media **** */
+@media only screen and (max-width: 960px) {
+  .style2 .logo a.hide-tablet,
+  .style2 .logo a.hide-tablet img,
+  .hide-tablet {
+    display: none !important;
+    padding: 0px;
+    margin: 0px;
+    visibility: hidden; } }
