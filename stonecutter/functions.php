@@ -22,8 +22,8 @@
              'name' => __( 'Logo Header Text ', 'oshin' ),
              'id'   => 'sck-logo-text',
              'description'   => __( 'Text in the header with logo', 'be-oshin' ),
-             'before_widget' => '<div class="%2$s widget logo-text">',
-             'after_widget'  => '</div>',
+             'before_widget' => '<div id="logo-header-text"><div class="%2$s widget logo-text">',
+             'after_widget'  => '</div></div>',
              'before_title'  => '<h2><a class="logo1" href="'.home_url().'">',
              'after_title'   => '</a></h2>',
      )

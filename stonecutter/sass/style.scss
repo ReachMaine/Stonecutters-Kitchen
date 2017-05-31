@@ -17,7 +17,38 @@ Version: 1.2
 
 }
 /*  header stuff - here */
-
+#header {
+	#header-wrap {
+			line-height: 180px;
+			padding-top: 6px;
+			padding-bottom: 8px;
+			.logo {
+				.logo1 img, .logo2 img {
+						//height: 180px;
+				}
+				#logo-header-text {
+					display: inline-block;
+					padding-left: 1.4%;
+					padding-right: 1%;
+					.logo-text {
+						display: inline-block;
+						line-height: normal;
+						margin-bottom: 0px;
+						vertical-align: middle;
+						color: white;
+						h2,
+						h2 a {
+							color: white;
+						}
+					}
+				}
+			}
+	} // header wrap
+	#header-bottom-bar {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
 /*** styling of content */
 
 /** sidebar

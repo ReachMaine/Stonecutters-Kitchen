@@ -38,17 +38,29 @@ i.fa-pull-right {
   padding-top: 0px !important;
   padding-bottom: 0px !important; }
 
-#header #header-wrap .logo .logo-text {
-  display: inline-block;
-  line-height: normal;
-  margin-bottom: 0px;
-  vertical-align: middle;
-  color: white; }
-  #header #header-wrap .logo .logo-text h2 {
-    color: white; }
-
 /*** slidebar in oshine slidebar is above main content *** */
 /*  header stuff - here */
+#header #header-wrap {
+  line-height: 180px;
+  padding-top: 6px;
+  padding-bottom: 8px; }
+  #header #header-wrap .logo #logo-header-text {
+    display: inline-block;
+    padding-left: 1.4%;
+    padding-right: 1%; }
+    #header #header-wrap .logo #logo-header-text .logo-text {
+      display: inline-block;
+      line-height: normal;
+      margin-bottom: 0px;
+      vertical-align: middle;
+      color: white; }
+      #header #header-wrap .logo #logo-header-text .logo-text h2,
+      #header #header-wrap .logo #logo-header-text .logo-text h2 a {
+        color: white; }
+#header #header-bottom-bar {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
 /*** styling of content */
 /** sidebar
 
