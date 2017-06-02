@@ -38,6 +38,11 @@ i.fa-pull-right {
   padding-top: 0px !important;
   padding-bottom: 0px !important; }
 
+form p {
+  margin-bottom: 10px; }
+  form p input[type="text"], form p input[type="email"], form p input[type="password"], form p input[type="tel"] {
+    margin-bottom: 0px; }
+
 /*** slidebar in oshine slidebar is above main content *** */
 /*  header stuff - here */
 #header #header-wrap {
