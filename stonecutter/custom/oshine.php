@@ -50,7 +50,7 @@
 		    dynamic_sidebar( 'sck-logo-text' );
 	  }
     echo '<a class="logo2 hide-mobile hide-tablet" href="'.home_url().'">';
-    echo '<img  src="'.get_stylesheet_directory_uri().'/images/sck-small.png" alt="'.$logo_alt_text.'">';
+    echo '<img  src="'.get_stylesheet_directory_uri().'/images/hvs-small.png" alt="'.$logo_alt_text.'">';
     echo '</a>';
 	}
 }
