@@ -43,6 +43,14 @@ form p {
   form p input[type="text"], form p input[type="email"], form p input[type="password"], form p input[type="tel"] {
     margin-bottom: 0px; }
 
+/* gravity forms styling */
+.gform_wrapper .gform_footer {
+  text-align: right; }
+  .gform_wrapper .gform_footer input[type=submit] {
+    cursor: pointer; }
+  .gform_wrapper .gform_footer input[type=submit]:hover {
+    background-color: black; }
+
 /*** slidebar in oshine slidebar is above main content *** */
 /*  header stuff - here */
 #header #header-wrap {

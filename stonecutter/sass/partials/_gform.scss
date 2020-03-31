@@ -1,0 +1,14 @@
+/* gravity forms styling */
+.gform_wrapper {
+	.gform_footer {
+    text-align: right;
+		input[type=submit] { //  Submit & save for later  look like buttons on the site.
+
+		    cursor: pointer;
+				//line-height: 1.7em;
+			}
+    input[type=submit]:hover {
+      background-color: black;
+    }
+	} // gform footer
+} // gform wrapper
